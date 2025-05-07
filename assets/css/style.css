@@ -1,39 +1,43 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #0d1b2a;  /* dark blue */
-    color: #f1f1f1;             /* white/light text */
-  }
-  
-  header {
-    text-align: center;
-    padding: 2rem;
-    background-color: #1b263b;  /* navy */
-    color: #ff6fa2;             /* pink accent */
-  }
-  
-  nav {
-    text-align: center;
-    background-color: #415a77;
-    padding: 1rem;
-  }
-  
-  nav a {
-    color: #ff9ebc;
-    margin: 0 1rem;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  section {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #1b263b;
-    color: #aaa;
-  }
-  
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #0d1b2a;
+  color: #f1f1f1;
+}
+
+header {
+  background-color: #1b263b;
+  color: #ff6fa2;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #324b68;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: #ff9ebc;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffc1d6;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #1b263b;
+  text-align: center;
+  padding: 1rem;
+  color: #aaa;
+}
